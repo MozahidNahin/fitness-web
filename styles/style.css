@@ -6,3 +6,55 @@
     font-weight: <weight>;
     font-style: normal;
   }
+
+
+/* Common and Shared styles */
+
+* {
+    background-color: black;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+
+/* Nav bar design */
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-title {
+    color: #E6533C;
+    font-style: italic;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.home-btn {
+    background: #E6533C;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 46px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav-option {
+    gap: 65px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 4px 25px 4px 4px;
+    border-radius: 39px;
+}
+
+.nav-option p {
+    font-size: 1.1rem;
+}
