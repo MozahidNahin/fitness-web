@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 .inter-regular {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -7,12 +9,25 @@
     font-style: normal;
   }
 
+  .miama {
+    font-family: 'Miama', sans-serif;
+    font-weight: 100;
+    font-size: 8.2rem;
+  }
+
 
 /* Common and Shared styles */
 
-* {
+body {
     background-color: black;
     color: white;
+}
+
+header {
+    background: linear-gradient(180deg, 
+    rgb(10, 10, 10), 
+    rgb(29, 29, 29)55%,
+    rgb(7, 7, 7));
 }
 
 .flex {
@@ -22,6 +37,14 @@
 .container {
     width: 90%;
     margin: 2rem auto;
+}
+
+.margin {
+    margin-bottom: 80px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -41,6 +64,7 @@
 
 .home-btn {
     background: #E6533C;
+    color: white;
     border: none;
     padding: 12px 40px;
     border-radius: 46px;
@@ -57,4 +81,104 @@
 
 .nav-option p {
     font-size: 1.1rem;
+    color: white;
+}
+
+
+/* Banner design */
+
+.banner-intro {
+    font-size: 4.8rem;
+    font-weight: 800;
+    line-height: 97%;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+  }
+
+.join-club {
+    background: #E6533C;
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid #E6533C;
+    padding: 16px 40px;
+    border-radius: 46px;
+    margin-right: 12px;
+}
+
+.download {
+    background: black;
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    padding: 16px 40px;
+    border-radius: 46px;
+}
+
+.banner {
+    justify-content: flex-start;
+    gap: 430px;
+    align-items: center;
+    position: relative;
+}
+
+
+.card-1 {
+    text-align: left;
+    background: rgba(70, 70, 70, 0.283);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 17px 24px;
+    border-radius: 12px;
+    position: absolute;
+    left: 83%;
+    top: 20%;
+}
+
+.card-1 p {
+    line-height: 0px;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    
+}
+
+.num1 {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.card-2 {
+    text-align: left;
+    background: rgba(48, 48, 48, 0.283);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 17px 24px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    bottom: 12%;
+    right: 28%;
+}
+
+.card-2 p {
+    line-height: 0px;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.num2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+  }
+
+.fa-circle {
+    color: #E6533C;
+    font-size: 35px;
 }
