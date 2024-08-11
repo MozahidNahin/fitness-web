@@ -25,9 +25,9 @@ body {
 
 header {
     background: linear-gradient(180deg, 
-    rgb(10, 10, 10), 
+    rgb(2, 2, 2), 
     rgb(29, 29, 29)55%,
-    rgb(7, 7, 7));
+    rgb(2, 2, 2));
 }
 
 .flex {
@@ -299,7 +299,10 @@ h4 {
 /* Footer design */
 
 footer {
-    background: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(180deg, 
+    rgb(11, 11, 11), 
+    rgb(19, 19, 19)55%,
+    rgb(9, 9, 9));
 }
 
 .footer-description h3{
@@ -317,11 +320,13 @@ footer {
     font-size: 1.2rem;
 }
 .footer-content {
+    padding-top: 40px;
     justify-content: space-between;
     align-items: baseline;
 }
 
 .rights {
     text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
+
