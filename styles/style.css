@@ -377,6 +377,47 @@ select {
 }  
 
 
+/* Our exclusive service section design */
+
+.card h5 {
+    font-size: 1.2rem;
+}
+
+.card p {
+    width: 60%;
+}
+
+.cards {
+   justify-content: space-between;
+   margin-top: 40px;
+   gap: 30px;
+}
+
+.card {
+    height: 310px;
+    width: 100%;
+    background: rgba(38, 38, 38, 0.689);
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.7s;
+}
+
+.card i {
+    color: #E6533C;
+    font-size: 1.7rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    background: linear-gradient(90deg,#dc371e,#E6533C);
+    transform: translateY(-7px);
+}
+
+.card:hover i {
+    color: white;
+}
+
 /* Footer design */
 
 footer {
