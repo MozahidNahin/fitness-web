@@ -89,6 +89,10 @@ h4 {
     color: white;
 }
 
+.ham-burger {
+    display: none;
+}
+
 
 /* Banner design */
 
@@ -418,6 +422,7 @@ select {
     color: white;
 }
 
+
 /* Footer design */
 
 footer {
@@ -452,3 +457,105 @@ footer {
     padding-bottom: 20px;
 }
 
+
+/* Responsive design*/
+
+@media screen and (max-width: 600px) {
+    /* Responsive Nav-bar */
+    .nav-option { 
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .intro-title {
+        font-size: 3rem;
+    }
+
+
+    /* Responsive Banner */
+
+    .banner{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .banner-intro {
+        font-size: 3rem;
+    }
+
+    .miama {
+        font-size: 6rem;
+    }
+
+    /* Responsive Change Your Habits */
+
+    .habit-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* Responsive Run an Extra Mile */
+
+    .extra-mile {
+        flex-direction: column;
+        padding-top: 5px;
+        gap: 40px;
+    }
+
+    .extra-mile h4 {
+        margin-top: 30px;
+    }
+
+    .extra-mile p {
+        width: 85%;
+    }
+
+    .extra-mile img {
+        width: 100%;
+        height: 100%;
+        object-fit: none;
+        object-position: 67% 28%; 
+        margin-bottom: 20px;
+    }
+
+
+    /* Responsive BMI Calculator */
+
+    .bmi-description{
+        margin-left: 25px;
+        width:80%;
+    }
+    .bmi-contents {
+        flex-direction: column;
+    }
+
+
+    /* Responsive Meet Our Team */
+
+    .row, .row2 {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Responsive Our Exclusive Service */
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        height: 310px;
+        width: 90%;
+    }
+
+
+    /* Responsive Footer */
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+}
