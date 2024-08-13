@@ -443,7 +443,7 @@ select {
 
 footer {
     background: linear-gradient(180deg, 
-    rgb(11, 11, 11), 
+    rgb(30, 30, 30), 
     rgb(19, 19, 19)55%,
     rgb(9, 9, 9));
 }
@@ -600,7 +600,7 @@ footer {
     }
 
     .extra-mile p {
-        width: 85%;
+        width: 100%;
     }
 
     .extra-mile img {
@@ -608,6 +608,10 @@ footer {
         height: 100%;
         object-fit: contain;
         margin-bottom: 15px;
+    }
+
+    .extra-mile button {
+        width: 100%;
     }
 
 
