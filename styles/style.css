@@ -614,6 +614,17 @@ footer {
         flex-direction: column;
     }
 
+    input {
+        width: 139px;
+    }
+
+    select {
+        width: 159px;
+    }
+
+    .calculate {
+        font-size: 0.8rem;
+    }
 
     /* Responsive Meet Our Team */
 
