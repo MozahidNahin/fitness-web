@@ -239,6 +239,7 @@ h4 {
 }
 
 .extra-mile p {
+    width: 50%;
     margin-bottom: 25px;
 }
 
@@ -472,6 +473,17 @@ footer {
 /* Responsive design*/
 
 @media screen and (max-width: 600px) {
+
+    /* shared */
+
+    h4 {
+         font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
     /* Responsive Nav-bar */
 
     .nav-option { 
@@ -562,6 +574,10 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .change-habit {
+        margin-top: -50px;
+    }
+
     /* Responsive Run an Extra Mile */
 
     .extra-mile {
@@ -581,9 +597,8 @@ footer {
     .extra-mile img {
         width: 100%;
         height: 100%;
-        object-fit: none;
-        object-position: 67% 28%; 
-        margin-bottom: 20px;
+        object-fit: contain;
+        margin-bottom: 15px;
     }
 
 
