@@ -466,7 +466,7 @@ footer {
 }
 .footer-content {
     padding-top: 40px;
-   justify-content: space-between;
+    justify-content: space-between;
     align-items: baseline;
 }
 
@@ -570,8 +570,8 @@ footer {
     }
 
     .play {
-        bottom: 8.6%;
-        right: 87%;
+        bottom: 8.7%;
+        right: 82.5%;
     }
 
     /* Responsive Change Your Habits */
@@ -626,6 +626,10 @@ footer {
 
     select {
         width: 159px;
+    }
+
+    .full-width {
+        width: 323px;
     }
 
     .calculate {
