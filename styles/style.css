@@ -179,9 +179,11 @@ h4 {
 }
 
 .play {
+    color: white;
     position: absolute;
-    bottom: 45%;
-    right: 30%;
+    font-size: 1rem;
+    right: 75%;
+    display: none;
 }
 
 .card-2 p {
@@ -570,8 +572,8 @@ footer {
     }
 
     .play {
-        bottom: 8.7%;
-        right: 82.5%;
+        display: block;
+        right: 71%;
     }
 
     /* Responsive Change Your Habits */
