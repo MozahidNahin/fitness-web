@@ -345,6 +345,9 @@ select {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 1rem 0;
     gap: 1rem;
+}
+
+.img-card {
     position: relative;
 }
 
@@ -371,7 +374,6 @@ select {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 1rem 0;
     gap: 1rem;
-    position: relative;
 }
 
 .card-text2 {
